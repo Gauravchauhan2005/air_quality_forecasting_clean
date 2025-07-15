@@ -9,8 +9,8 @@ from keras.models  import load_model
 import matplotlib.pyplot as plt
 
 # Load model and scaler
-model = load_model('../models/lstm_cnn_model.keras')
-scaler = joblib.load('../models/scaler.pkl')
+model = load_model('lstm_cnn_model.keras')
+scaler = joblib.load('scaler.pkl')
 
 st.title("🌫️ Air Quality Forecasting (PM2.5) - DL Model")
 
